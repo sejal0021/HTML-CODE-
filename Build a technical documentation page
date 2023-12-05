@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product-landing-page</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="page">
+      <header id="header">
+        <<img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo">
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#Features">Features</a></li>
+            <li><a class="nav-link" href="#How it works">How It Works</a></li>
+            <li><a class="nav-link" href="#Pricing">Pricing</a></li> 
+          <ul>
+        </nav>
+      </header>
+    <div>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <p>Handcrafted, home-made masterpieces</p>
+        <input type="email" name="email" required id="email" placeholder="enter email address"/>
+        <input id="submit" type="submit" value="get started">
+      </form>
+      <div id="classes">
+        <section id="Features">
+          <h2>Premium Materials</h2>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+          <h2>Fast Shipping</h2>
+            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+          <h2>Quality Assurance</h2>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </section>
+      </div>
+    </div>
+    <section id="How it works">
+      <iframe id="video" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0"></iframe>
+    </section>
+    <section id="Pricing">
+      <div class="tenor">TENOR</div>
+        <div id="price"><h2>$600<h2></div>
+        <p class="characteristics">
+          <div>Lorem ipsum.</div>
+          <div>Lorem ipsum.</div>
+          <div>Lorem ipsum dolor.</div>
+          <div>Lorem ipsum.</div>
+        </p>
+        <input type="submit" class="select" value="select" />   
+      </div>
+      <div class="bass trombone">BASS TROMBONE</div>
+        <div id="price"><h2>$900<h2></div>
+        <p class="characteristics">
+          <div>Lorem ipsum.</div>
+          <div>Lorem ipsum.</div>
+          <div>Lorem ipsum dolor.</div>
+          <div>Lorem ipsum.</div>
+        </p>
+        <input type="submit" class="select" value="select" />   
+      </div>
+      <div class="VALVE TROMBONE">VALVE TROMBONE</div>
+        <div id="price"><h2>$1200<h2></div>
+        <p class="characteristics">
+          <div>Plays similar to a Trumpet</div>
+          <div>Great for Jazz Bands</div>
+          <div>Lorem ipsum dolor.</div>
+          <div>Lorem ipsum.</div>
+        </p>
+        <input type="submit" class="select" value="select" />   
+      </div>
+    </section>
+    </div>
+  </body>
+</html>
+#css
+  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  align-items: center;
+  background-color: #eee;
+}
+
+li {
+  list-style: none;
+}
+
+page {
+  position: relative;
+}
+
+#classes  {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media (max-width: 650px) {
+  #features {
+    margin-top: 0;
+  }
+}
+
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
